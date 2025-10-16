@@ -7,7 +7,7 @@ from reminder_generator import generate_reminder
 import re
 
 def manual_trigger(students_manager: StudentsManager):
-    """Send reminders immediately to all students (for testing)."""
+    """Send reminders immediately to all students."""
     students = students_manager.get_students()
     if not students:
         print("No students found.")
@@ -32,7 +32,7 @@ def list_students(students_manager: StudentsManager):
     print()
 
 def add_student_flow(students_manager: StudentsManager):
-    """Interactive flow to add a student with per-field validation."""
+    """Interactive flow to add a student."""
     print("\nAdd a new student")
 
     # Name
