@@ -6,6 +6,7 @@ This project is a study reminder system for students. It allows you to add stude
 
 - **Add students** with name, email, course, and preferred reminder time.
 - **List all students** currently registered.
+- **Remove students** by selecting from a numbered list.
 - **Send reminders manually** to all students.
 - **Schedule automatic reminders** at each student's preferred time (using the `schedule` library).
 - **Log all reminders** sent, with timestamp, to `reminder_log.txt`.
@@ -21,6 +22,7 @@ This project is a study reminder system for students. It allows you to add stude
 - `scheduler.py` - Schedules reminders at preferred times.
 - `students.json` - Stores student data persistently.
 - `reminder_log.txt` - Log file for sent reminders.
+- `setup.py` - Setup script for packaging and installing the project with pip.
 
 ## How It Works
 
@@ -39,6 +41,7 @@ From the project root folder, run:
 ```bash
 pip install .
 ```
+The `setup.py` file allows you to install the project as a package and run it from anywhere using the command below.
 
 ### 2. Run the program
 
@@ -58,9 +61,10 @@ python3 main.py
 
 - **1. List students** – Shows all students and their info.
 - **2. Add student** – Add a new student (time format: `HH:MM`, 24-hour clock, e.g. `08:00`).
-- **3. Send reminders now** – Immediately sends reminders to all students.
-- **4. Start scheduler** – Starts automatic reminders at each student's preferred time.
-- **5. Exit** – Quit the program.
+- **3. Remove student** – Remove a student by selecting their number from the list.
+- **4. Send reminders now** – Immediately sends reminders to all students.
+- **5. Start scheduler** – Starts automatic reminders at each student's preferred time.
+- **6. Exit** – Quit the program.
 
 ### 4. Time Format
 
@@ -71,22 +75,6 @@ When adding a student, enter the preferred time as `HH:MM` (e.g., `14:30` for 2:
 
 All reminders sent (manually or scheduled) are logged in `reminder_log.txt` with a timestamp.
 
-## Example
-
-```
-1. List students
-2. Add student
-3. Send reminders now
-4. Start scheduler
-5. Exit
-Choose an option: 2
-
-Add a new student
-Name: Alex
-Email: alex@example.com
-Course: ACIT 4420
-Preferred time (e.g., 08:00): 20:00
-```
 
 ## Notes
 
@@ -94,8 +82,5 @@ Preferred time (e.g., 08:00): 20:00
 - You can stop the scheduler with `Ctrl+C`.
 - All student data is saved in `students.json` and managed in memory using the `Students` class.
 
-## Author
-
-- Alex Bazo
 
 ---

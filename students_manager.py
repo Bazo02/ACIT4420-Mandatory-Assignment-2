@@ -31,8 +31,8 @@ class StudentsManager:
         self.students.add_student(name, email, course, preferred_time)
         self.save_students()
 
-    def remove_student(self, name):
-        self.students.remove_student(name)
+    def remove_student(self, email):
+        self.students.remove_student(email)  
         self.save_students()
 
     def get_students(self):

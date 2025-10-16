@@ -15,9 +15,9 @@ class Students:
         }
         self.students.append(student)
 
-    def remove_student(self, name):
-        """Remove a student by name."""
-        self.students = [s for s in self.students if s['name'] != name]
+    def remove_student(self, email):
+        """Remove a student by email."""
+        self.students = [s for s in self.students if s['email'] != email]
 
     def get_students(self):
         """Retrieve the list of students."""

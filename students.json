@@ -42,9 +42,21 @@
         "preferred_time": "01:56"
     },
     {
-        "name": "s",
-        "email": "2@live.no",
-        "course": "2",
+        "name": "Erik",
+        "email": "Erik@oslomet.no",
+        "course": "ACIT 4420",
+        "preferred_time": "15:46"
+    },
+    {
+        "name": "Hans",
+        "email": "Hans@oslomet.no",
+        "course": "ACIT4460",
         "preferred_time": "10:00"
+    },
+    {
+        "name": "Alexander Bazo",
+        "email": "S358824@oslomet.no",
+        "course": "ACIT4420",
+        "preferred_time": "16:37"
     }
 ]
