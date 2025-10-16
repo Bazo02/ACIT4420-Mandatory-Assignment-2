@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Alice",
+        "email": "alice@example.com",
+        "course": "Python Scripting",
+        "preferred_time": "08:00"
+    },
+    {
+        "name": "Bob",
+        "email": "bob@example.com",
+        "course": "Algorithms",
+        "preferred_time": "09:30"
+    },
+    {
+        "name": "Charlie",
+        "email": "charlie@example.com",
+        "course": "Data Science",
+        "preferred_time": "07:45"
+    },
+    {
+        "name": "Alex",
+        "email": "s358824@oslomet.no",
+        "course": "ACIT 4420",
+        "preferred_time": "20:00"
+    },
+    {
+        "name": "Marius",
+        "email": "marius@live.no",
+        "course": "Programmering",
+        "preferred_time": "22:21"
+    },
+    {
+        "name": "Anders",
+        "email": "anders@live.no",
+        "course": "Engineering",
+        "preferred_time": "01:29"
+    },
+    {
+        "name": "ole",
+        "email": "ole@live.no",
+        "course": "engineering",
+        "preferred_time": "01:56"
+    },
+    {
+        "name": "s",
+        "email": "2@live.no",
+        "course": "2",
+        "preferred_time": "10:00"
+    }
+]

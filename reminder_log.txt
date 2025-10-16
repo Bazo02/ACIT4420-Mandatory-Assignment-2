@@ -1,0 +1,14 @@
+2025-10-15 22:12:05.976438 - Sent to Alice: Hi Alice, remember to review Python Scripting materials before the deadline!
+2025-10-15 22:12:05.976947 - Sent to Bob: Hi Bob, remember to review Algorithms materials before the deadline!
+2025-10-15 22:12:05.977079 - Sent to Charlie: Hi Charlie, remember to review Data Science materials before the deadline!
+2025-10-15 22:12:05.977202 - Sent to Alex: Hi Alex, remember to review ACIT 4420 materials before the deadline!
+2025-10-16 01:29:49.963729 - Sent to Anders: Hi Anders, remember to review Engineering materials before the deadline!
+2025-10-16 01:56:12.109140 - Sent to ole: Hi ole, remember to review engineering materials before the deadline!
+2025-10-16 02:10:33.571808 - Sent to Alice: Hi Alice, remember to review Python Scripting materials before the deadline!
+2025-10-16 02:10:33.572859 - Sent to Bob: Hi Bob, remember to review Algorithms materials before the deadline!
+2025-10-16 02:10:33.572951 - Sent to Charlie: Hi Charlie, remember to review Data Science materials before the deadline!
+2025-10-16 02:10:33.573071 - Sent to Alex: Hi Alex, remember to review ACIT 4420 materials before the deadline!
+2025-10-16 02:10:33.573160 - Sent to Marius: Hi Marius, remember to review Programmering materials before the deadline!
+2025-10-16 02:10:33.573225 - Sent to Anders: Hi Anders, remember to review Engineering materials before the deadline!
+2025-10-16 02:10:33.573289 - Sent to ole: Hi ole, remember to review engineering materials before the deadline!
+2025-10-16 02:10:33.573399 - Sent to s: Hi s, remember to review 2 materials before the deadline!
